@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax</title>
+</head>
+<body>
+    <div class="banner">
+        <h2 id="text">Heaven</h2>
+        <div class="clouds">
+            <img src="img/cloud1.png" style="--i:1;">
+            <img src="img/cloud2.png" style="--i:2;">
+            <img src="img/cloud3.png" style="--i:3;">
+            <img src="img/cloud4.png" style="--i:4;">
+            <img src="img/cloud5.png" style="--i:5;">
+            <img src="img/cloud1.png" style="--i:10;">
+            <img src="img/cloud2.png" style="--i:9;">
+            <img src="img/cloud3.png" style="--i:8;">
+            <img src="img/cloud4.png" style="--i:7;">
+            <img src="img/cloud5.png" style="--i:6;">
+        </div>
+    </div>
+
+    <section>
+        <h2>Parrallax realistic</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officiis facere dolore praesentium quaerat. Eaque libero temporibus, quam delectus dicta tempora possimus rerum accusantium architecto earum aperiam iusto at accusamus deserunt veritatis necessitatibus officia autem nulla? Veniam, adipisci! Vitae suscipit, neque excepturi ipsam aut deserunt. Neque excepturi quidem dolore tempore laborum sint, ex in nesciunt, repellendus a error eius quasi? Doloremque minus possimus, vitae natus officia, facere porro dolores iste voluptatibus quod esse perspiciatis omnis repellat tenetur vero ducimus, suscipit eum tempore earum veniam quae! Vero quasi ipsa id? Eligendi, iste praesentium quibusdam nihil impedit debitis, corrupti perferendis ratione facilis ipsa ut at ullam enim illo libero cumque? Dolore modi corporis, omnis facilis vel natus nihil tempore blanditiis, quasi dicta minima officiis obcaecati, alias aliquam officia mollitia libero voluptatibus? Ipsam molestias veniam libero deserunt dignissimos ducimus error veritatis unde! Est fugit tempora ratione similique sunt animi voluptate expedita repellat eaque? Vero quisquam, magnam perspiciatis laborum omnis reprehenderit obcaecati consequatur animi repellendus deleniti voluptas sint ea laudantium quam magni ab earum distinctio quae facere praesentium amet! At rem quibusdam qui commodi in inventore adipisci, accusantium velit accusamus, dolore, sequi asperiores provident cum voluptatem nisi vitae doloremque corporis eos veniam autem officia.
+            <br><br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam deserunt, magnam quis unde numquam ipsa nisi voluptatibus rem, provident vero labore vel neque enim sunt? Ex doloremque in recusandae quos molestiae quisquam? Ipsum dignissimos a aut minima error incidunt cumque tempore dolore sit natus ad exercitationem sequi est porro rerum facere iste quaerat nulla, consequuntur fuga reprehenderit excepturi harum! Necessitatibus soluta neque, facere incidunt commodi a, rerum cum qui sequi blanditiis optio quas ipsa similique voluptates ab numquam beatae, deleniti cupiditate nostrum vel! Id corrupti ipsum maiores eius nisi culpa, pariatur dolores cupiditate corporis. Eos, beatae! Tempora sed recusandae facere.
+        </p>
+    </section>
+    <script type="text/javascript">
+        let text = document.getElementById('text');
+        window.addEventListener('scroll' , function(){
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px';
+        })
+
+    </script>
+</body>
+</html>
